@@ -1,0 +1,476 @@
+@import url(../fonts.css);
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+   
+}
+.boxxx{
+    width: 1780px;
+    height: 2000px;
+    border: 1px solid red;
+    overflow: hidden;
+    
+    
+}
+.navbar{
+    height: 700px;
+    width: 1920px;
+    left: 0px;
+    top: -7px;
+    border-radius: 0px;
+    background: #EEEFF1;
+}
+.logo h1{
+    font-size: 64px;
+    position: relative;
+    top: 57px;
+    left: 400px;
+}
+.line{
+    display: flex;
+    gap: 30px;
+
+}
+.words{
+    color: black;
+    font-size: 18px;
+    font-family: 'line';
+    position: relative;
+    left: 900px;
+    transition: 0.3s;
+}
+.words:hover{
+    color: rgb(91, 91, 233);
+}
+.navbar img{
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+.fortification_for_img img {
+ position: relative;
+ left: 900px;
+top: -100px;
+}
+.fortification_for_img h3{
+    width: 500px;
+    line-height: 24px;
+    font-family: 'Logo_1';
+    position: relative;
+    left: 900px;
+    bottom: 50px;
+}
+.write_me{
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    position: relative;
+    left: 900px;
+    bottom: 40px;
+    
+}
+.write_me a{
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-size: 22px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.under_navbar{
+    width: 1920px;
+    height: 350px;
+}
+.under_navbar p{
+    width: 400px;
+    position: relative;
+    left: 700px;
+    top: 140px;
+    font-family: 'Logo_1';
+}
+.under_navbar span{
+    position: relative;
+    left: 820px;
+    top: 110px;
+    font-family: 'logo_2';
+    font-size: 36px;
+}
+.center{
+    width: 1920px;
+    height: 250px;
+    background-color: #34547A;
+    display: flex;
+    gap: 80px;
+
+}
+.center a{
+    position: relative;
+    top: 80px;
+}
+.under_center{
+    width: 1920px;
+    height: 700px;
+    border: 1px solid red;
+}
+.under_center h1{
+    font-size: 36px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 220px;
+    left: 250px;
+}
+.stick_with_info1{
+    width: 445px;
+    height: 5px;
+    border: 1px solid red;
+    position: relative;
+    top: 270px;
+    left: 250px;
+    border-radius: 20px;
+    transition: 0.4s;
+    overflow: hidden;
+}
+.stick_with_info1:hover{
+    height: 25px;
+}
+.stick_with_info2{
+    width: 445px;
+    height: 5px;
+    border: 1px solid red;
+    position: relative;
+    top: 350px;
+    left: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.stick_with_info2:hover{
+    height: 25px;
+}
+    
+
+.stick_with_info3{
+    width: 445px;
+    height: 5px;
+    border: 1px solid red;
+    position: relative;
+    top: 410px;
+    left: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.4s;
+
+}
+.stick_with_info3:hover{
+    height: 25px;
+}
+.info1{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    top: 250px;
+    left: 250px;
+    font-family: 'line';
+    overflow: hidden;
+}
+.info2{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 1690px;
+    left: 250px;
+    font-family: 'line';
+    overflow: hidden;
+
+}
+
+.info3{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 1760px;
+    left: 250px;
+    font-family: 'line';
+    overflow: hidden;
+
+}
+.fuller1{
+    width: 300px;
+    background-color: red;
+    height: 3px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.fuller1:hover{
+    height: 100px;
+    width: 450px;
+    opacity: 0;
+}
+.fuller2:hover{
+    height: 100px;
+    width: 450px;
+    opacity: 0;
+}
+.fuller3:hover{
+    height: 100px;
+    width: 450px;
+    opacity: 0;
+}
+.fuller2{
+    width: 40px;
+    background-color: red;
+    height: 4px;
+    border-radius: 10px;
+    transition: 0.4s;
+
+}
+.fuller3{
+    width: 10px;
+    background-color: red;
+    height: 4px;
+    border-radius: 10px;
+    transition: 0.4s;
+
+
+}
+.stick_with_info1 h3{
+    position: absolute;
+    font-size: 18px;
+    font-family: line;
+    left: 200px;
+}
+.stick_with_info2 h3{
+    position: absolute;
+    font-size: 18px;
+    font-family: line;
+    left: 200px;
+}
+.stick_with_info3 h3{
+    position: absolute;
+    font-size: 18px;
+    font-family: line;
+    left: 200px;
+}
+.under_center img{
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    position: relative;
+    left: 900px;
+}
+@media(max-width: 1400px){
+    .navbar{
+        width: 1400px;
+    }
+   .navbar img{
+       left: 200px;
+   }
+   .fortification_for_img img{
+       right: 00px;
+       left: 400px;
+       top: 140px;
+       bottom: 0px;
+   }
+   .fortification_for_img h3{
+       left: 600px;
+   }
+   .write_me{
+       bottom: 250px;
+       left: 600px;
+   }
+   .under_navbar{
+       width: 1400px;
+   }
+   .under_navbar span{
+       left: 600px;
+   }
+   .under_navbar p{
+       left: 500px;
+   }
+   .center{
+       width: 1400px;
+       overflow: hidden;
+   }
+   .under_center{
+       width: 1400px;
+   }
+
+ }
+
+@media(max-width: 1200px){
+   .logo h1{
+       left: 100px;
+       top: 10px;
+   }
+   .words{
+       left: 300px;
+       bottom: 50px;
+   }
+    
+}
+@media(max-width: 992px){}
+@media(max-width: 768px){}
+@media(max-width: 576px){}
+@media(max-width: 480px){
+    *{
+        margin: 0 auto;
+    }
+    .navbar{
+        width: 480px;
+    }
+    .logo h1{
+        left: 0;
+        font-size: 32px;
+    }
+    .line{
+        gap: 10px;
+        display: inline-block;
+    }
+    .words{
+        left: 100px;
+        bottom:50px;
+    }
+    .navbar img{
+        left: 120px;
+        width: 150px;
+        height: 100px;
+        top: -50px;
+    }
+    .fortification_for_img img{
+        display: none;
+    }
+    .write_me{
+        left: 150px;
+        width: 60px;
+        height: 50px;
+        border-radius: 6px;
+        bottom: 200px;
+    }
+    .write_me a{
+        font-size: 10px;
+        left: 0;
+        top: 10px;
+        
+    }
+    .fortification_for_img h3{
+        left: 0;
+        font-size: 10px;
+        width: 200px;
+        left: -130px;
+    }
+    .navbar{
+        height: 300px;
+    }
+    .under_navbar span{
+        left: 0;
+        font-size: 20px;
+        top: 0;
+    }
+    .under_navbar p{
+       left: 00px;
+       right: -10px;
+       top: 10px;
+       left: 0;
+    }
+    .under_navbar{
+        width: 480px;
+    }
+    .center{
+        width: 480px;
+        height: 100px;
+        gap: 5px;
+    }
+    .center img{
+        width: 50px;
+        height: 20px;
+        position: relative;
+        bottom: 40px;
+    }
+    .under_center{
+        width: 480px;
+    }
+    .under_center h1{
+        top: 20px;
+        left: 0;
+        font-size: 20px;
+    }
+    .stick_with_info1{
+        width: 144px;
+        left: -160px;
+        top: 40px;
+    }
+    .stick_with_info2{
+        width: 144px;
+        left: -160px;
+        top: 70px;
+    }.stick_with_info3{
+        width: 144px;
+        left: -160px;
+        top: 100px;
+        display: none ;
+    }
+    .stick_with_info1:hover{
+        height: 5px;
+    }
+    .stick_with_info2:hover{
+        height: 5px;
+    }
+    .stick_with_info3:hover{
+        height: 5px;
+    }
+    .info1{
+        left: 5px;
+        top: 40px;
+    }
+    .info2{
+        top: 850px;
+        left: 17px;
+    }
+    .info3{
+        left: 40px;
+        bottom: 0px;
+        display: none;
+    }
+
+    .fuller1{
+        width: 50px;
+        position: relative;
+        left: -50px;
+    }
+    .fuller2{
+        width: 40px;
+        position: relative;
+        left: -60px;
+    }
+    .fuller3{
+        width: 10px;
+        position: relative;
+        left: -70px;
+        display: none;
+    }
+    .under_center{
+        width: 480px;
+        transition: 1s;
+    }
+    .under_center img{
+        left: 200px;
+        width: 100px;
+        height: 150px;
+        bottom: 50px;
+        transition: 1.3s;
+    }
+    .under_center{
+        height: 200px;
+    }
+.boxxx{
+    width: 420px;
+    height: 900px;
+}
+
+}
+
+@media(max-width: 320px){}

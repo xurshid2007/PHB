@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Logo_1';
+    src: url(SairaCondensed-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'Logo_2';
+    src: url(SairaCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: 'Logo_3';
+    src: url(SairaCondensed-Thin.ttf);
+}
+@font-face {
+    font-family:'line';
+    src: url(RobotoCondensed-Italic.ttf);
+}
